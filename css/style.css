@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "./utility/cores.css";
 @import "./global/global.css";
-@import "./utilidades/tipografia.css";
-@import "./utilidades/cores.css";
+
+@import "./global/header.css"
