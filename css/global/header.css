@@ -1,6 +1,5 @@
 .header {
     background: var(--c-12);
-    padding: 2rem;
 }
 
 .header .container {
@@ -22,6 +21,7 @@
     position: relative;
     font-size: 1.125rem;
     color: var(--c-0);
+    font-weight: 400;
 }
 
 .header a::after {
@@ -57,6 +57,10 @@
 }
 
 @media (max-width: 600px) {
+    .header {
+        padding: 1.25rem;
+    }
+
     .header .container {
         justify-content: center;
     }
