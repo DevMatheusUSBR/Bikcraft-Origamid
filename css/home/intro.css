@@ -19,18 +19,8 @@ body {
   padding-bottom: 12.5rem;
 }
 
-.intro_content h1 {
-  font-size: 4rem;
-  line-height: 1.125;
-  font-weight: 600;
-}
-
 .intro_content p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: var(--c-5);
   margin: 1.25rem 0;
-  font-weight: 400;
 }
 
 @media (max-width:1200px) {
