@@ -10,6 +10,10 @@
   font-weight: 600;
 }
 
+.dot {
+  color: var(--c-p1);
+}
+
 .text {
   font-size: 1.5rem;
   line-height: 1.5;
@@ -34,8 +38,13 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
-.dot {
-  color: var(--c-p1);
+.bnt.second {
+  color: var(--c-4);
+  background: var(--c-10);
+}
+
+.bnt.second:hover {
+  background: var(--c-9);
 }
 
 @media (max-width: 1200px) {
