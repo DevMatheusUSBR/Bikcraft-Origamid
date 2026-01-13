@@ -86,10 +86,6 @@
     grid-template-columns: 1fr;
   }
 
-  .technologies picture {
-    height: auto;
-  }
-
   .technologies picture img {
     display: none;
   }

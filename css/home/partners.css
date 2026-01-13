@@ -1,3 +1,7 @@
+.partners {
+  margin-bottom: 7.5rem;
+}
+
 .partners .title {
   color: var(--c-12);
   margin: 7.5rem auto 3.75rem auto;
@@ -45,5 +49,11 @@
 
   .partners_list li:nth-child(odd) {
     border-left: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .partners_list li {
+    padding: 1.5rem;
   }
 }
