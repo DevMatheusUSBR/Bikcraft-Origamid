@@ -1,7 +1,3 @@
-body {
-  color: var(--c-0);
-}
-
 .intro {
   background: var(--c-12);
   box-shadow: inset 0 -120px var(--c-0);
@@ -56,6 +52,12 @@ body {
   .intro picture img {
     height: 300px;
     width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro {
+    padding-top: 2rem;
   }
 }
 
