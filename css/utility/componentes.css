@@ -58,3 +58,10 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width:600px) {
+  .bnt {
+    padding: 0.75em 1rem;
+    font-size: 1rem;
+  }
+}
