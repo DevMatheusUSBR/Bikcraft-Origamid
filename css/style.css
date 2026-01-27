@@ -12,3 +12,6 @@
 @import "./home/partners.css";
 @import "./home/testimony.css";
 @import "./home/insurance.css";
+
+/* Terms Style */
+@import "./terms/terms.css";
